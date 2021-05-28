@@ -1,0 +1,26 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text: 'Купить молоко'
+  isCompleted: false
+  project: one
+  
+two:
+  text: 'Заменить масло в двигателе до 23 апреля'
+  isCompleted: false
+  project: one
+
+three:
+  text: 'Заплатить за квартиру'
+  isCompleted: false
+  project: one
+  
+four:
+  text: 'брать обувь из ремонта'
+  isCompleted: false
+  project: one
+  
+five:
+  text: 'Отправить письмо бабушке'
+  isCompleted: true
+  project: one
