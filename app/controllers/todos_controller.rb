@@ -12,8 +12,7 @@ class TodosController < ApplicationController
   end
 
   def update
-    @project = Project.find(params[:project_id])
-    @todo = @project.todos[params[:id].to_i]
+    @todo = Todo.find(params[:id])
     @todo.update(isCompleted: params['isCompleted'])
   end
 
